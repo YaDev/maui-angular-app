@@ -3,11 +3,10 @@ import { Component } from '@angular/core';
 
 
 @Component({
-  selector: 'app-root',
-  standalone: true,
-  imports: [NgIf],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+    selector: 'app-root',
+    imports: [NgIf],
+    templateUrl: './app.component.html',
+    styleUrl: './app.component.scss'
 })
 export class AppComponent {
   title = 'my-angular-app';
